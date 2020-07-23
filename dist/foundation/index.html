@@ -1,0 +1,82 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foundation Starter Template</title>
+  <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+
+<body>
+
+  <div class="off-canvas position-left bg-secondary" id="offCanvas" data-off-canvas>
+
+    <!-- Close button -->
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true">&times;</span>
+    </button>
+
+    <!-- Menu -->
+    <ul class="vertical menu">
+      <li><a href="#" class="text-white">Learn</a></li>
+      <li><a href="#" class="text-white">Blog</a></li>
+      <li><a href="#" class="text-white">Blog</a></li>
+    </ul>
+
+  </div>
+
+  <div class="off-canvas-content" data-off-canvas-content>
+    <!-- Your page content lives here -->
+    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="large">
+      <button class="menu-icon" type="button" data-toggle="offCanvas"></button>
+      <div class="title-bar-title title-bar-left ml-2">Savant Coder</div>
+      <!-- <div class="title-bar-title title-bar-right mr-2">
+        <i class="fa fa-search" data-toggle="exampleModal8"></i>
+      </div> -->
+    </div>
+
+    <div class="top-bar" id="responsive-menu">
+      <div class="top-bar-left show-for-medium">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Savant Coder</li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <div class="title-bar-title title-bar-right mr-2">
+          <ul class="menu ">
+            <li><a href="#" class="text-dark">Learn</a></li>
+            <li><a href="#" class="text-dark">Blog</a></li>
+            <li><a href="#" class="text-dark">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <h1>Hello, world!</h1>
+  </div>
+
+  <div class="full reveal" id="exampleModal8" data-reveal>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x align-center">
+        <div class="cell small-12">
+          <label class="width-100 margin-top-2 h4 subheader">
+            Search
+            <input type="text" class="h4 app-nav__search" placeholder="Javascript, AWS,...">
+          </label>
+        </div>
+      </div>
+    </div>
+    <button class="close-button" data-close aria-label="Close reveal" type="button">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+    integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>

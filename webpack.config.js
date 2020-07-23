@@ -3,12 +3,12 @@ const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
-    devServer: {
-        contentBase: path.resolve(__dirname, 'dist'),
-        compress: true,
-        publicPath: 'dist',
-        writeToDisk: true
-    },
+    // devServer: {
+    //     contentBase: path.resolve(__dirname, 'dist'),
+    //     compress: true,
+    //     publicPath: 'dist',
+    //     writeToDisk: true
+    // },
     entry: './src/js/app.js',
     output: {
         filename: 'app.js',
